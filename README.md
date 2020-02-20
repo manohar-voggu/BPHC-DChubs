@@ -1,8 +1,8 @@
-## Last Updated: 2020-02-20  17:00:37  
+## Last Updated: 2020-02-20  20:40:33  
 
 Hub | Address | Status  
 --- | --- | ---  
-LegendHub  |  172.16.71.71  |  **online**
+LegendHub  |  172.16.71.71  |  offline
 Paradise  |  172.16.48.114  |  offline
 Exotica  |  172.16.120.250  |  offline
 
