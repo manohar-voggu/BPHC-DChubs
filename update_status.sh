@@ -6,5 +6,5 @@ function gitpush { /usr/local/bin/git push || (gitpush) }; #git push until succe
 /sbin/ping 172.16.0.30 -c 1 -W 1
 if [ $? = 0 ]
 then
-    eval `ssh-agent -s` && ssh-add ~/.ssh/dchubs && cd ~/Codes/BPHC-DChubs && gitpull && /usr/local/bin/python3 dc_status.py && /usr/local/bin/git commit -am "Updated Active Hubs" && gitpush && kill $SSH_AGENT_PID
+    eval `ssh-agent -s` && ssh-add ~/.ssh/id_ed25519 && cd ~/Codes/BPHC-DChubs && gitpull && /usr/local/bin/python3 dc_status.py && /usr/local/bin/git commit -am "Updated Active Hubs" && gitpush && kill $SSH_AGENT_PID
 fi
